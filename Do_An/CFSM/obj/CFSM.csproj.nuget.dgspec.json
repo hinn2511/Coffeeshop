@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ACER\\Desktop\\Tai_Lieu\\CNPM\\Do_An\\CFSM\\CFSM.csproj": {}
+    "C:\\Git\\Coffeeshop\\Do_An\\CFSM\\CFSM.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ACER\\Desktop\\Tai_Lieu\\CNPM\\Do_An\\Application\\Application.csproj": {
+    "C:\\Git\\Coffeeshop\\Do_An\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ACER\\Desktop\\Tai_Lieu\\CNPM\\Do_An\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Git\\Coffeeshop\\Do_An\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\ACER\\Desktop\\Tai_Lieu\\CNPM\\Do_An\\Application\\Application.csproj",
+        "projectPath": "C:\\Git\\Coffeeshop\\Do_An\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ACER\\Desktop\\Tai_Lieu\\CNPM\\Do_An\\Application\\obj\\",
+        "outputPath": "C:\\Git\\Coffeeshop\\Do_An\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\ACER\\Desktop\\Tai_Lieu\\CNPM\\Do_An\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\ACER\\Desktop\\Tai_Lieu\\CNPM\\Do_An\\Domain\\Domain.csproj"
+              "C:\\Git\\Coffeeshop\\Do_An\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Git\\Coffeeshop\\Do_An\\Domain\\Domain.csproj"
               }
             }
           }
@@ -60,14 +60,14 @@
         }
       }
     },
-    "C:\\Users\\ACER\\Desktop\\Tai_Lieu\\CNPM\\Do_An\\CFSM\\CFSM.csproj": {
+    "C:\\Git\\Coffeeshop\\Do_An\\CFSM\\CFSM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ACER\\Desktop\\Tai_Lieu\\CNPM\\Do_An\\CFSM\\CFSM.csproj",
+        "projectUniqueName": "C:\\Git\\Coffeeshop\\Do_An\\CFSM\\CFSM.csproj",
         "projectName": "CFSM",
-        "projectPath": "C:\\Users\\ACER\\Desktop\\Tai_Lieu\\CNPM\\Do_An\\CFSM\\CFSM.csproj",
+        "projectPath": "C:\\Git\\Coffeeshop\\Do_An\\CFSM\\CFSM.csproj",
         "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ACER\\Desktop\\Tai_Lieu\\CNPM\\Do_An\\CFSM\\obj\\",
+        "outputPath": "C:\\Git\\Coffeeshop\\Do_An\\CFSM\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -82,14 +82,14 @@
           "net5.0": {
             "targetAlias": "netcoreapp5.0",
             "projectReferences": {
-              "C:\\Users\\ACER\\Desktop\\Tai_Lieu\\CNPM\\Do_An\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\ACER\\Desktop\\Tai_Lieu\\CNPM\\Do_An\\Application\\Application.csproj"
+              "C:\\Git\\Coffeeshop\\Do_An\\Application\\Application.csproj": {
+                "projectPath": "C:\\Git\\Coffeeshop\\Do_An\\Application\\Application.csproj"
               },
-              "C:\\Users\\ACER\\Desktop\\Tai_Lieu\\CNPM\\Do_An\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\ACER\\Desktop\\Tai_Lieu\\CNPM\\Do_An\\Domain\\Domain.csproj"
+              "C:\\Git\\Coffeeshop\\Do_An\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Git\\Coffeeshop\\Do_An\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\ACER\\Desktop\\Tai_Lieu\\CNPM\\Do_An\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\ACER\\Desktop\\Tai_Lieu\\CNPM\\Do_An\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Git\\Coffeeshop\\Do_An\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Git\\Coffeeshop\\Do_An\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -141,14 +141,14 @@
         }
       }
     },
-    "C:\\Users\\ACER\\Desktop\\Tai_Lieu\\CNPM\\Do_An\\Domain\\Domain.csproj": {
+    "C:\\Git\\Coffeeshop\\Do_An\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ACER\\Desktop\\Tai_Lieu\\CNPM\\Do_An\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Git\\Coffeeshop\\Do_An\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\ACER\\Desktop\\Tai_Lieu\\CNPM\\Do_An\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Git\\Coffeeshop\\Do_An\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ACER\\Desktop\\Tai_Lieu\\CNPM\\Do_An\\Domain\\obj\\",
+        "outputPath": "C:\\Git\\Coffeeshop\\Do_An\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -193,14 +193,14 @@
         }
       }
     },
-    "C:\\Users\\ACER\\Desktop\\Tai_Lieu\\CNPM\\Do_An\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Git\\Coffeeshop\\Do_An\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ACER\\Desktop\\Tai_Lieu\\CNPM\\Do_An\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Git\\Coffeeshop\\Do_An\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\ACER\\Desktop\\Tai_Lieu\\CNPM\\Do_An\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Git\\Coffeeshop\\Do_An\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ACER\\Desktop\\Tai_Lieu\\CNPM\\Do_An\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Git\\Coffeeshop\\Do_An\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -215,8 +215,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\ACER\\Desktop\\Tai_Lieu\\CNPM\\Do_An\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\ACER\\Desktop\\Tai_Lieu\\CNPM\\Do_An\\Domain\\Domain.csproj"
+              "C:\\Git\\Coffeeshop\\Do_An\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Git\\Coffeeshop\\Do_An\\Domain\\Domain.csproj"
               }
             }
           }

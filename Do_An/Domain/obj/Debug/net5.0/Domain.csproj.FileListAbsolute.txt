@@ -10,3 +10,15 @@ C:\Users\ACER\Desktop\Tai_Lieu\CNPM\Do_An\Domain\obj\Debug\net5.0\Domain.dll
 C:\Users\ACER\Desktop\Tai_Lieu\CNPM\Do_An\Domain\obj\Debug\net5.0\ref\Domain.dll
 C:\Users\ACER\Desktop\Tai_Lieu\CNPM\Do_An\Domain\obj\Debug\net5.0\Domain.pdb
 C:\Users\ACER\Desktop\Tai_Lieu\CNPM\Do_An\Domain\obj\Debug\net5.0\Domain.csprojAssemblyReference.cache
+C:\Git\Coffeeshop\Do_An\Domain\bin\Debug\net5.0\Domain.deps.json
+C:\Git\Coffeeshop\Do_An\Domain\bin\Debug\net5.0\Domain.dll
+C:\Git\Coffeeshop\Do_An\Domain\bin\Debug\net5.0\ref\Domain.dll
+C:\Git\Coffeeshop\Do_An\Domain\bin\Debug\net5.0\Domain.pdb
+C:\Git\Coffeeshop\Do_An\Domain\obj\Debug\net5.0\Domain.csprojAssemblyReference.cache
+C:\Git\Coffeeshop\Do_An\Domain\obj\Debug\net5.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\Coffeeshop\Do_An\Domain\obj\Debug\net5.0\Domain.AssemblyInfoInputs.cache
+C:\Git\Coffeeshop\Do_An\Domain\obj\Debug\net5.0\Domain.AssemblyInfo.cs
+C:\Git\Coffeeshop\Do_An\Domain\obj\Debug\net5.0\Domain.csproj.CoreCompileInputs.cache
+C:\Git\Coffeeshop\Do_An\Domain\obj\Debug\net5.0\Domain.dll
+C:\Git\Coffeeshop\Do_An\Domain\obj\Debug\net5.0\ref\Domain.dll
+C:\Git\Coffeeshop\Do_An\Domain\obj\Debug\net5.0\Domain.pdb

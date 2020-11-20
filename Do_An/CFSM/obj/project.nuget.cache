@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kpbmH7u9xOvEluD+H2XPt5Qw2HqfEN6N95WcMveMjHw2gJXWh3aKGZt+gyFiiJZIYLzmlHdT0Jf1aeWXIyhsxQ==",
+  "dgSpecHash": "PI4uRdh3WdEOQ18BloSHxclWntAAY/NBHx+FixkuwYc9pN+ezbbAF92mjrJVXQ1JAqoCMnGR7i86HBDBXp8p5Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ACER\\Desktop\\Tai_Lieu\\CNPM\\Do_An\\CFSM\\CFSM.csproj",
+  "projectFilePath": "C:\\Git\\Coffeeshop\\Do_An\\CFSM\\CFSM.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ACER\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

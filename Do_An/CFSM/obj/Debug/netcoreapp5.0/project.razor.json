@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\ACER\\Desktop\\Tai_Lieu\\CNPM\\Do_An\\CFSM\\CFSM.csproj",
+  "FilePath": "c:\\Git\\Coffeeshop\\Do_An\\CFSM\\CFSM.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15603,53 +15603,53 @@
   "RootNamespace": "CFSM",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\ACER\\Desktop\\Tai_Lieu\\CNPM\\Do_An\\CFSM\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\ACER\\Desktop\\Tai_Lieu\\CNPM\\Do_An\\CFSM\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\ACER\\Desktop\\Tai_Lieu\\CNPM\\Do_An\\CFSM\\Views\\Ingredient\\Index.cshtml",
-      "TargetPath": "Views\\Ingredient\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\ACER\\Desktop\\Tai_Lieu\\CNPM\\Do_An\\CFSM\\Views\\Ingredient\\Create.cshtml",
-      "TargetPath": "Views\\Ingredient\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\ACER\\Desktop\\Tai_Lieu\\CNPM\\Do_An\\CFSM\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\ACER\\Desktop\\Tai_Lieu\\CNPM\\Do_An\\CFSM\\Views\\Ingredient\\Details.cshtml",
-      "TargetPath": "Views\\Ingredient\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\ACER\\Desktop\\Tai_Lieu\\CNPM\\Do_An\\CFSM\\Views\\Ingredient\\Edit.cshtml",
+      "FilePath": "c:\\Git\\Coffeeshop\\Do_An\\CFSM\\Views\\Ingredient\\Edit.cshtml",
       "TargetPath": "Views\\Ingredient\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\ACER\\Desktop\\Tai_Lieu\\CNPM\\Do_An\\CFSM\\Views\\_ViewStart.cshtml",
+      "FilePath": "c:\\Git\\Coffeeshop\\Do_An\\CFSM\\Views\\Ingredient\\Details.cshtml",
+      "TargetPath": "Views\\Ingredient\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Git\\Coffeeshop\\Do_An\\CFSM\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Git\\Coffeeshop\\Do_An\\CFSM\\Views\\Ingredient\\Index.cshtml",
+      "TargetPath": "Views\\Ingredient\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Git\\Coffeeshop\\Do_An\\CFSM\\Views\\Ingredient\\Create.cshtml",
+      "TargetPath": "Views\\Ingredient\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Git\\Coffeeshop\\Do_An\\CFSM\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Git\\Coffeeshop\\Do_An\\CFSM\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Git\\Coffeeshop\\Do_An\\CFSM\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\ACER\\Desktop\\Tai_Lieu\\CNPM\\Do_An\\CFSM\\Views\\Ingredient\\Delete.cshtml",
+      "FilePath": "c:\\Git\\Coffeeshop\\Do_An\\CFSM\\Views\\Ingredient\\Delete.cshtml",
       "TargetPath": "Views\\Ingredient\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\ACER\\Desktop\\Tai_Lieu\\CNPM\\Do_An\\CFSM\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FilePath": "c:\\Git\\Coffeeshop\\Do_An\\CFSM\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     }
   ],
