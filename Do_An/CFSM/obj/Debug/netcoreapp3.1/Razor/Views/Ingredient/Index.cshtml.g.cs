@@ -253,7 +253,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
             WriteLiteral("</td>\r\n            <td>");
 #nullable restore
 #line 41 "C:\Users\ACER\Desktop\CFSM\Views\Ingredient\Index.cshtml"
-           Write(Html.DisplayFor(item => ingredient.PricePerUnit));
+           Write(Html.DisplayFor(item => ingredient.Price));
 
 #line default
 #line hidden

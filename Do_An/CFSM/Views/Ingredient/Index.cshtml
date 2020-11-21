@@ -30,25 +30,25 @@
     <thead>
         <tr>
             <th><a  asp-route-sortOrder="@nameSort"
-                    asp-route-movieGenre="@Model.IngredientType"
+                    asp-route-ingredientType="@Model.IngredientType"
                     asp-route-searchString="@Model.SearchString">
                 @Html.DisplayNameFor(model => model.Ingredients[0].Name)</a></th>
             <th><a  asp-route-sortOrder="@supplierSort"
-                    asp-route-movieGenre="@Model.IngredientType"
+                    asp-route-ingredientType="@Model.IngredientType"
                     asp-route-searchString="@Model.SearchString">
                 @Html.DisplayNameFor(model => model.Ingredients[0].Supplier)</a></th>
             <th >
-                @Html.DisplayNameFor(model => model.Ingredients[0].PricePerUnit) (VND)</th>
+                @Html.DisplayNameFor(model => model.Ingredients[0].Price) (VND)</th>
             <th><a  asp-route-sortOrder="@unitSort"
-                    asp-route-movieGenre="@Model.IngredientType"
+                    asp-route-ingredientType="@Model.IngredientType"
                     asp-route-searchString="@Model.SearchString">
                 @Html.DisplayNameFor(model => model.Ingredients[0].Unit)</a></th>
             <th><a  asp-route-sortOrder="@quantitySort"
-                    asp-route-movieGenre="@Model.IngredientType"
+                    asp-route-ingredientType="@Model.IngredientType"
                     asp-route-searchString="@Model.SearchString">
                 @Html.DisplayNameFor(model => model.Ingredients[0].Quantity)</a></th>
             <th><a  asp-route-sortOrder="@typeSort"
-                    asp-route-movieGenre="@Model.IngredientType"
+                    asp-route-ingredientType="@Model.IngredientType"
                     asp-route-searchString="@Model.SearchString">
                 @Html.DisplayNameFor(model => model.Ingredients[0].Type)</a></th>
             <th>Action</th>
@@ -60,7 +60,7 @@
         <tr>
             <td>@ingredient.Name</td>
             <td>@ingredient.Supplier</td>
-            <td>@Html.DisplayFor(item => ingredient.PricePerUnit)</td> 
+            <td>@Html.DisplayFor(item => ingredient.Price)</td> 
             <td>@ingredient.Unit</td>
             <td>@ingredient.Quantity</td>            
             <td>@ingredient.Type</td>

@@ -21,8 +21,8 @@ namespace CFSM
             using (var scope = host.Services.CreateScope())
             {
                 var services = scope.ServiceProvider;
-                var ingredientcontext = services.GetRequiredService<IngredientContext>();
-                SeedData.Initialize(ingredientcontext);
+                var coffeecontext = services.GetRequiredService<CoffeeContext>();
+                SeedData.Initialize(coffeecontext);
             }
 
             host.Run();

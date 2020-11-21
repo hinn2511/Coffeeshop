@@ -17,7 +17,7 @@ namespace Application.Services
 
         public IEnumerable<IngredientDto> GetIngredients(string sortOrder, string ingredientType, string searchString, int pageIndex, int pageSize, out int count)
         {
-            var ingredients = ingredientRepository.Filter(sortOrder, ingredientType, searchString, pageIndex, pageSize, out count);
+            var ingredients = ingredientRepository.IngredientFilter(sortOrder, ingredientType, searchString, pageIndex, pageSize, out count);
 
             return ingredients.MappingDtos();
         }
@@ -31,7 +31,7 @@ namespace Application.Services
 
         public IEnumerable<string> GetTypes()
         {
-            return ingredientRepository.GetTypes();
+            return ingredientRepository.GetIngredientTypes();
         }
 
         public void CreateIngredient(IngredientDto ingredientDto)

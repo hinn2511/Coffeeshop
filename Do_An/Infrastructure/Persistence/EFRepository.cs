@@ -5,11 +5,12 @@ using Domain.Repositories;
 
 namespace Infrastructure.Persistence
 {
+    
     public class EFRepository<T> : IRepository<T> where T : class, IAggregateRoot
     {
-        protected readonly IngredientContext context;
+        protected readonly CoffeeContext context;
 
-        public EFRepository(IngredientContext context)
+        public EFRepository(CoffeeContext context)
         {
             this.context = context;
         }
@@ -42,4 +43,6 @@ namespace Infrastructure.Persistence
             context.SaveChanges();
         }
     }
+
+    
 }

@@ -7,11 +7,11 @@ namespace Infrastructure.Persistence
 {
     public class IngredientRepository : EFRepository<Ingredient>, IIngredientRepository
     {
-        public IngredientRepository(IngredientContext context) : base(context)
+        public IngredientRepository(CoffeeContext context) : base(context)
         {
         }
 
-        public IEnumerable<string> GetTypes()
+        public IEnumerable<string> GetIngredientTypes()
         {
             return context.Ingredients
                             .OrderBy(m => m.Type)
@@ -19,7 +19,7 @@ namespace Infrastructure.Persistence
                             .Distinct();
         }
 
-        public IEnumerable<Ingredient> Filter(string sortOrder, string ingredientType, string searchString, int pageIndex, int pageSize, out int count)
+        public IEnumerable<Ingredient> IngredientFilter(string sortOrder, string ingredientType, string searchString, int pageIndex, int pageSize, out int count)
         {
             var query = context.Ingredients.AsQueryable();
 
@@ -55,11 +55,11 @@ namespace Infrastructure.Persistence
                 case "supplier":
                     query = query.OrderBy(m => m.Supplier);
                     break;
-                case "pricePerUnit_desc":
-                    query = query.OrderByDescending(m => m.PricePerUnit);
+                case "Price_desc":
+                    query = query.OrderByDescending(m => m.Price);
                     break;
-                case "pricePerUnit":
-                    query = query.OrderBy(m => m.PricePerUnit);
+                case "Price":
+                    query = query.OrderBy(m => m.Price);
                     break;
                 case "unit_desc":
                     query = query.OrderByDescending(m => m.Unit);

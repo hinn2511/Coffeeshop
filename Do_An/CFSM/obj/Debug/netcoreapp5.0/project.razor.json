@@ -15618,6 +15618,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Git\\Coffeeshop\\Do_An\\CFSM\\Views\\Customer\\Index.cshtml",
+      "TargetPath": "Views\\Customer\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Git\\Coffeeshop\\Do_An\\CFSM\\Views\\Ingredient\\Index.cshtml",
       "TargetPath": "Views\\Ingredient\\Index.cshtml",
       "FileKind": "mvc"
@@ -15640,6 +15645,11 @@
     {
       "FilePath": "c:\\Git\\Coffeeshop\\Do_An\\CFSM\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Git\\Coffeeshop\\Do_An\\CFSM\\Views\\Customer\\Create.cshtml",
+      "TargetPath": "Views\\Customer\\Create.cshtml",
       "FileKind": "mvc"
     },
     {

@@ -148,3 +148,5 @@ C:\Git\Coffeeshop\Do_An\CFSM\obj\Debug\netcoreapp5.0\CFSM.dll
 C:\Git\Coffeeshop\Do_An\CFSM\obj\Debug\netcoreapp5.0\ref\CFSM.dll
 C:\Git\Coffeeshop\Do_An\CFSM\obj\Debug\netcoreapp5.0\CFSM.pdb
 C:\Git\Coffeeshop\Do_An\CFSM\obj\Debug\netcoreapp5.0\CFSM.genruntimeconfig.cache
+C:\Git\Coffeeshop\Do_An\CFSM\obj\Debug\netcoreapp5.0\Razor\Views\Customer\Create.cshtml.g.cs
+C:\Git\Coffeeshop\Do_An\CFSM\obj\Debug\netcoreapp5.0\Razor\Views\Customer\Index.cshtml.g.cs

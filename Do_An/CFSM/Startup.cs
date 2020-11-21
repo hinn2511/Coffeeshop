@@ -28,12 +28,14 @@ namespace CFSM
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            services.AddDbContext<IngredientContext>(options =>
+            services.AddDbContext<CoffeeContext>(options =>
                 options.UseSqlite(Configuration.GetConnectionString("Default")));
 
             services.AddScoped(typeof(IRepository<>), typeof(EFRepository<>));
             services.AddScoped<IIngredientRepository, IngredientRepository>();
             services.AddScoped<IIngredientService, IngredientService>();
+            services.AddScoped<ICustomerRepository, CustomerRepository>();
+            services.AddScoped<ICustomerService, CustomerService>();
         }
 
         public void Configure(IApplicationBuilder app)
@@ -49,6 +51,10 @@ namespace CFSM
                 endpoints.MapControllerRoute(
                     name: default,
                     pattern: "{controller=Ingredient}/{action=Index}/{id?}"
+                );
+                endpoints.MapControllerRoute(
+                    name: default,
+                    pattern: "{controller=Customer}/{action=Index}/{id?}"
                 );
                 
             });

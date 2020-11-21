@@ -6,6 +6,9 @@ namespace Application.Mappings
 {
     public static class MappingProfile
     {
+
+        /////////////////////////////////////// Ingredient //////////////////////////////////////////
+
         public static IngredientDto MappingDto(this Ingredient ingredient)
         {
             return new IngredientDto
@@ -13,7 +16,7 @@ namespace Application.Mappings
                 Id = ingredient.Id,
                 Name = ingredient.Name,
                 Supplier = ingredient.Supplier,
-                PricePerUnit = ingredient.PricePerUnit,
+                Price = ingredient.Price,
                 Quantity = ingredient.Quantity,
                 Unit = ingredient.Unit,
                 Type = ingredient.Type
@@ -28,7 +31,7 @@ namespace Application.Mappings
                 Name = ingredientDto.Name,
                 Supplier = ingredientDto.Supplier,
                 Quantity = ingredientDto.Quantity,
-                PricePerUnit = ingredientDto.PricePerUnit,
+                Price = ingredientDto.Price,
                 Unit = ingredientDto.Unit,
                 Type = ingredientDto.Type
             };
@@ -38,7 +41,7 @@ namespace Application.Mappings
             ingredient.Name = ingredientDto.Name;
             ingredient.Supplier = ingredientDto.Supplier;
             ingredient.Quantity = ingredientDto.Quantity;
-            ingredient.PricePerUnit = ingredientDto.PricePerUnit;
+            ingredient.Price = ingredientDto.Price;
             ingredient.Unit = ingredientDto.Unit;
             ingredient.Type = ingredientDto.Type;
         }
@@ -48,6 +51,52 @@ namespace Application.Mappings
             foreach (var ingredient in ingredients)
             {
                 yield return ingredient.MappingDto();
+            }
+        }
+
+        /////////////////////////////////////// Customer //////////////////////////////////////////
+        public static CustomerDto MappingDto(this Customer customer)
+        {
+            return new CustomerDto
+            {
+                CustomerID = customer.Id,
+                CustomerName = customer.CustomerName,
+                PhoneNumber = customer.PhoneNumber,
+                Address = customer.Address,
+                Email = customer.Email,
+                Point = customer.Point,
+                CustomerType = customer.CustomerType
+            };
+        }
+
+        public static Customer MappingCustomer(this CustomerDto customerDto)
+        {
+            return new Customer
+            {
+                Id = customerDto.CustomerID,
+                CustomerName = customerDto.CustomerName,
+                PhoneNumber = customerDto.PhoneNumber,
+                Address = customerDto.Address,
+                Email = customerDto.Email,
+                Point = customerDto.Point,
+                CustomerType = customerDto.CustomerType
+            };
+        }
+        public static void MappingCustomer(this CustomerDto customerDto, Customer customer)
+        {
+            customer.CustomerName = customerDto.CustomerName;
+            customer.PhoneNumber = customerDto.PhoneNumber;
+            customer.Address = customerDto.Address;
+            customer.Email = customerDto.Email;
+            customer.Point = customerDto.Point;
+            customer.CustomerType = customerDto.CustomerType;
+        }
+
+        public static IEnumerable<CustomerDto> MappingDtos(this IEnumerable<Customer> customers)
+        {
+            foreach (var customer in customers)
+            {
+                yield return customer.MappingDto();
             }
         }
     }

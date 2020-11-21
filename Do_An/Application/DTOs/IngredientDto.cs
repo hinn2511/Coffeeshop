@@ -20,7 +20,7 @@ namespace Application.DTOs
         [DataType(DataType.Currency)]
         [Display(Name = "Price")]
         [DisplayFormat(DataFormatString = "{0:#,#.00}")]
-        public decimal PricePerUnit { get; set; }
+        public decimal Price { get; set; }
 
         [Range(0, 1000)]
         public int Quantity { get; set; } 

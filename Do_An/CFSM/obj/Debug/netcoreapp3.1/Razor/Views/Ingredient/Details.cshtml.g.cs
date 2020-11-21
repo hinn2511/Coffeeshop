@@ -107,7 +107,7 @@ using CFSM.ViewModels;
             WriteLiteral("</dd>\r\n        <dt class=\"col-sm-2\">");
 #nullable restore
 #line 17 "C:\Users\ACER\Desktop\CFSM\Views\Ingredient\Details.cshtml"
-                        Write(Html.DisplayNameFor(model => model.PricePerUnit));
+                        Write(Html.DisplayNameFor(model => model.Price));
 
 #line default
 #line hidden
@@ -115,7 +115,7 @@ using CFSM.ViewModels;
             WriteLiteral("</dt>\r\n        <dd class=\"col-sm-10\">");
 #nullable restore
 #line 18 "C:\Users\ACER\Desktop\CFSM\Views\Ingredient\Details.cshtml"
-                         Write(Html.DisplayFor(model => Model.PricePerUnit));
+                         Write(Html.DisplayFor(model => Model.Price));
 
 #line default
 #line hidden

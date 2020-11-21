@@ -7,17 +7,17 @@ namespace Infrastructure.Persistence
 {
     public class SeedData
     {
-        public static void Initialize(IngredientContext Ingcontext)
+        public static void Initialize(CoffeeContext Cofcontext)
         {
-            Ingcontext.Database.EnsureCreated();
+            Cofcontext.Database.EnsureCreated();
 
-            if (Ingcontext.Ingredients.Any()) return;
+            if (Cofcontext.Ingredients.Any()) return;
 
-            Ingcontext.Ingredients.AddRange(new List<Ingredient>{
+            Cofcontext.Ingredients.AddRange(new List<Ingredient>{
                 new Ingredient {
                     Name = "Coffee Powder",
                     Supplier = "Trung Nguyen Co",
-                    PricePerUnit = 50000,
+                    Price = 50000,
                     Quantity = 5,
                     Unit = "KG",
                     Type = "Coffee"
@@ -26,7 +26,7 @@ namespace Infrastructure.Persistence
                 new Ingredient {
                     Name = "Milk",
                     Supplier = "Vinamilk Co",
-                    PricePerUnit = 120000,
+                    Price = 120000,
                     Quantity = 5,
                     Unit = "L",
                     Type = "Milk"
@@ -34,7 +34,7 @@ namespace Infrastructure.Persistence
                 new Ingredient {
                     Name = "Condensed milk",
                     Supplier = "Vinamilk Co",
-                    PricePerUnit = 150000,
+                    Price = 150000,
                     Quantity = 10,
                     Unit = "L",
                     Type = "Milk"
@@ -42,7 +42,7 @@ namespace Infrastructure.Persistence
                 new Ingredient {
                     Name = "Oolong tea",
                     Supplier = "Phuc Long Co",
-                    PricePerUnit = 80000,
+                    Price = 80000,
                     Quantity = 4,
                     Unit = "KG",
                     Type = "Tea"
@@ -50,7 +50,7 @@ namespace Infrastructure.Persistence
                 new Ingredient {
                     Name = "Oranges",
                     Supplier = "Viet Fruit Co",
-                    PricePerUnit = 18000,
+                    Price = 18000,
                     Quantity = 10,
                     Unit = "KG",
                     Type = "Fruit"
@@ -58,14 +58,44 @@ namespace Infrastructure.Persistence
                 new Ingredient {
                     Name = "Strawberry",
                     Supplier = "Viet Fruit Co",
-                    PricePerUnit = 60000,
+                    Price = 60000,
                     Quantity = 15,
                     Unit = "KG",
                     Type = "Fruit"
                 }
             });
 
-            Ingcontext.SaveChanges();
+            if (Cofcontext.Customers.Any()) return;
+
+            Cofcontext.Customers.AddRange(new List<Customer>{
+                new Customer {
+                    CustomerName = "Max",
+                    PhoneNumber = "0907564381",
+                    Address = "27 An Duong Vuong",
+                    Email = "max27@gmail.com",
+                    Point = 100,
+                    CustomerType = "1"
+                    
+                },
+                new Customer {
+                    CustomerName = "Clara",
+                    PhoneNumber = "0905684381",
+                    Address = "38 Nguyen Trai",
+                    Email = "clara38@gmail.com",
+                    Point = 0,
+                    CustomerType = "0"
+                },
+                new Customer {
+                    CustomerName = "Brian",
+                    PhoneNumber = "0907571381",
+                    Address = "675 Ly Thai To",
+                    Email = "brian675@gmail.com",
+                    Point = 200,
+                    CustomerType = "1"
+                }
+            });
+
+            Cofcontext.SaveChanges();
         }
     
 
